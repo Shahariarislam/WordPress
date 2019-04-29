@@ -7,7 +7,7 @@
  *
  * https://pantheon.io/docs
  */
-
+define('FS_METHOD' , 'direct');
 /**
  * Local configuration information.
  *
