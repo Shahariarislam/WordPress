@@ -64,7 +64,7 @@ else:
     define('LOGGED_IN_SALT',   $_ENV['LOGGED_IN_SALT']);
     define('NONCE_SALT',       $_ENV['NONCE_SALT']);
     /**#@-*/
-
+	define('FS_METHOD' , 'direct');
     /** A couple extra tweaks to help things run well on Pantheon. **/
     if (isset($_SERVER['HTTP_HOST'])) {
         // HTTP is still the default scheme for now. 
